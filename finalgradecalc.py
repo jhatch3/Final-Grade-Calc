@@ -58,4 +58,4 @@ if finalWorth != None and finalWorth != 0.0:
 if gradeTarget != None and gradeTarget != 0.0:
     st.header(f"Grade Needed on Final to get {gradeTarget}%")
     gradeNeed = gradeCalc(currentGrade, gradeTarget, finalWorth)
-    st.write(f"% {gradeNeed}")
+    st.header(f"{gradeNeed} %")
