@@ -56,6 +56,6 @@ if finalWorth != None and finalWorth != 0.0:
 
 # Take inputs and plug into calculator, then print results
 if gradeTarget != None and gradeTarget != 0.0:
-    st.header(f"Grade Needed on Final to get {gradeTarget}%")
+    st.header(f"Grade Needed on Final to get a {gradeTarget} %")
     gradeNeed = gradeCalc(currentGrade, gradeTarget, finalWorth)
     st.header(f"{gradeNeed} %")
